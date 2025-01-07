@@ -24,7 +24,7 @@ import { DoughnutChart } from "./DoughnoutChart";
 const WatchList = () => {
   const label = watchlist.map((subArray)=>subArray["name"]);
 const data={
-  labels,
+  label,
   datasets: [
     {
       label: 'Price',
